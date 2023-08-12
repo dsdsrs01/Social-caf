@@ -1,0 +1,15 @@
+:root {
+    --bg-color-background: rgb(34, 34, 34);
+    --bg-color-span-h2: rgb(123, 14, 201);
+    --bg-color-fonts: white;
+    --bg-color-header-navlink: #E1E1E6;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--bg-color-background);
+    color: var(--bg-color-fonts);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+} 

@@ -1,0 +1,26 @@
+.BoxCard {
+    margin-top: 30px;
+    display: inline-flex;
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10;
+
+    border-radius: 12px;
+
+    background: #FFF;
+    
+    .content {
+        width: 304px;
+        color: black;
+
+        .SubTitulo {
+            color: #666;
+        }
+
+        .title {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+        }
+    }
+}

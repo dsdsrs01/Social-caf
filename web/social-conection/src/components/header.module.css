@@ -1,0 +1,28 @@
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    line-height: 10px;
+}
+
+.navHeader {
+    display: flex;
+    gap: 0.5;
+
+    .a {
+        width: 3rem;
+        height: 3rem;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        color: var(--bg-color-header-navlink);
+
+        border-top: 3px solid transparent;
+        border-bottom: 3px solid transparent;
+    }
+}
