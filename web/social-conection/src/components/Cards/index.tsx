@@ -1,4 +1,5 @@
 import styles from './cards.module.css'
+import { PencilSimple, Trash } from 'phosphor-react'
 
 export function Card() {
     return (
@@ -8,8 +9,14 @@ export function Card() {
                 <h1 className={styles.title}>Ritalina</h1>
                 <p className={styles.SubTitulo}>Quantidade: <span>10</span></p>
                 <div className={styles.BoxButtons}>
-                    <button>Editar</button>
-                    
+                    <PencilSimple className={styles.pencil} size={15} />
+                    <button className={styles.buttomEditar}>    
+                        Editar
+                    </button>
+                    <Trash className={styles.trash} size={15} />
+                    <button className={styles.buttomDeletar}>    
+                        Deletar
+                    </button>
                 </div>
             </div>
         </div>
